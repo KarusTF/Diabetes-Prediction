@@ -19,6 +19,7 @@ Hyperparameter Tuning: Fine-tune the model hyperparameters using techniques like
 Deployment: Deploy the trained model into a production environment, such as a web application or an API, where it can be used to make predictions on new data.
 
 Key Components:
+
 Dataset: A dataset containing health-related features such as glucose levels, blood pressure, BMI, insulin levels, age, etc., along with labels indicating diabetes status (positive or negative).
 
 Machine Learning Models: Various machine learning algorithms are used for prediction, such as logistic regression, decision trees, random forests, etc.
