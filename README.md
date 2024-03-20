@@ -24,8 +24,10 @@ Dataset: A dataset containing health-related features such as glucose levels, bl
 
 Machine Learning Models: Various machine learning algorithms are used for prediction, such as logistic regression, decision trees, random forests, etc.
 
+
 Data Preprocessing: Steps include handling missing values, feature scaling, and feature engineering to prepare the data for modeling.
 Model Evaluation: Techniques to evaluate model performance, such as cross-validation, confusion matrix, and various classification metrics.
 
 Hyperparameter Tuning: Optimization techniques to find the best hyperparameters for the models, improving their predictive performance.
 
+Credit to: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8306487/ 
