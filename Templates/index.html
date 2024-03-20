@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h2>Enter Patient Data</h2>
+    <form action="/predict" method="post">
+        <label for="glucose">Glucose Level:</label><br>
+        <input type="text" id="glucose" name="glucose"><br>
+        <label for="blood_pressure">Blood Pressure:</label><br>
+        <input type="text" id="blood_pressure" name="blood_pressure"><br>
+        <label for="skin_thickness">Skin Thickness:</label><br>
+        <input type="text" id="skin_thickness" name="skin_thickness"><br>
+        <label for="insulin">Insulin Level:</label><br>
+        <input type="text" id="insulin" name="insulin"><br>
+        <label for="bmi">BMI:</label><br>
+        <input type="text" id="bmi" name="bmi"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br><br>
+        <label for="pr">Pregnancies before(times):</label><br>
+        <input type="text" id="pr" name="pr"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
